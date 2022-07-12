@@ -1,0 +1,41 @@
+.Popup{
+    /* height: 400px; */
+    max-width: 400px;
+    background-color: var(--dark-blue);
+    border-radius: 25px;
+    margin: 10% auto 0 auto;
+    padding: 30px;
+    justify-content: space-between; 
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .imgDiv{
+    margin-bottom: 20px;
+  }
+
+  p.orange-text{
+    margin: auto !important;
+    font-weight: 600;
+  }
+  .white-text{
+    color: var(--white);
+  }
+
+  .orange-text{
+    color: var(--orange);
+    font-weight: 400;
+  }
+  .cover{
+    display: flex;
+    background-color: var(--darker-blue);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    transition: 0.2s;
+    padding: 8px 0;
+    margin: 10px 0;
+    /* height: 40px; */
+  }
+  

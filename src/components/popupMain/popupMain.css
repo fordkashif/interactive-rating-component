@@ -1,0 +1,74 @@
+  .white-text{
+    color: var(--white);
+  }
+  
+  .Popup{
+    /* height: 400px; */
+    max-width: 400px;
+    background-color: var(--dark-blue);
+    border-radius: 25px;
+    margin: 10% auto 0 auto;
+    padding: 30px;
+    justify-content: space-between; 
+    flex-direction: column;
+  }
+  
+  .circle{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: var(--darker-blue);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    transition: 0.2s;
+    margin-bottom: 20px;
+  }
+  
+  .grid{
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: repeat(5, 70px);
+  }
+  
+  .submitBtn{
+    background-color: var(--orange);
+    border: none;
+    shadow: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .circle.white-text{
+    margin-bottom: 30px;
+  }
+  
+  .circle.white-text:hover{
+    background-color: var(--orange);
+    cursor: pointer !important;
+  }
+  
+  .submitBtn:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .active-link {
+    background-color: var(--medium-grey);
+    color: white;
+  }
+  
+  .Popup h1{
+    margin-bottom: 20px;
+  }
+  
+  .Popup p{
+    margin-bottom: 20px;
+  }
