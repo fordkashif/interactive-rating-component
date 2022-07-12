@@ -9,6 +9,29 @@
     flex-direction: column;
     text-align: center;
   }
+
+  @media only screen and (max-width: 600px) {
+    .Popup{
+        max-width: 250px;
+    }
+    .circle{
+        width: 50px;
+        height: 50px;
+    }
+    .grid{
+        grid-gap:0.25rem;
+        grid-template-columns: repeat(5, 47px);
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .grid{
+        grid-gap:0.7rem;
+        grid-template-columns: repeat(5, 70px);
+    }
+
+}
   
   .imgDiv{
     margin-bottom: 20px;
